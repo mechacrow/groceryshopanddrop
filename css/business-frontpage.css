@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url(/img/another-background.jpg) center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+#main-header {
+    color: black!important;
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em
+}
+
+.btn {
+    background-color: #8dc059!important;
+}
+
+#c0dd9b
